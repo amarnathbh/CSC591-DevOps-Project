@@ -1,5 +1,5 @@
 # These commands should be used with jenkins 
-# Use the password set in first scriot 
+# Use the password set in first script 
 su jenkins
 # Installing the required packages like cmake need for compilation
 sudo apt-get install -y libcurl4-openssl-dev libexpat1-dev gettext libz-dev libssl-dev build-essential
