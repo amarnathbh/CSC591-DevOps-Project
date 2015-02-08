@@ -13,7 +13,7 @@ sudo apt-get install -y mysql-client mysql-server libmysqlclient-dev
 
 # Installing RVM
 curl -L https://get.rvm.io | bash -s stable
-source /var/lib/jenkins/.rvm/scripts/rvm
+source $HOME/.rvm/scripts/rvm
 
 # Installing Ruby 
 rvm install ruby-2.1.5
