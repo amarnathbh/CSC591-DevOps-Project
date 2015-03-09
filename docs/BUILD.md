@@ -53,18 +53,18 @@ Using the Master Jenkins UI, We added a new Node. Provided the IP address and cr
 We added a Github Webhook. This is will send a post request to our Jenkins server as soon as something is pushed to "master branch". Hence as soon as teh post request is received, it will trigger to build the project.
 
 ## Architecture
-![Architecture for CI](imgs/architecture.png)
+![Architecture for CI](./imgs/architecture.png)
 
 ## Capabilities
 1. Triggered Builds
-![Trigger Build](imgs/trigger_build.png)
+![Trigger Build](./imgs/trigger_build.png)
 
 2. Dependency Management
 Refer `script/build.sh`. It handles the dependency management for the target project.
 
 3. Build Script Execution
 The Build is executed and it is passed. The build is Green
-![Green Build](imgs/green_build.png)
+![Green Build](./imgs/green_build.png)
 
 4. Multiple Nodes
 ![Distributed Nodes](imgs/distributed_nodes.png)
