@@ -3,10 +3,10 @@
 CSC510 DevOps
 
 ## Target Project
-The target project which we are using for our CI pipeline is Gitlab. Gitlab is open source version of github. It is full-fledged Ruby on Rails application. It has extensive stack. It uses Ruby, Rails, SASS, CoffeScript, Redis, GitShell, Postgres, MySQl, Nginx. It uses Sidekiq for background processing. It also uses many C packages to interact with the git server. For testing it uses Rspec(Unit and fuctional), Capybara(integration), Jasmine(Javascript), Cucumber(Integration). It can be found at [GitlabHQ](http://github.com/gitlabhq/gitlabhq).
+The target project which we are using for our CI pipeline is Gitlab. Gitlab is open source version of github. It is full-fledged Ruby on Rails application. It has extensive stack. It uses Ruby, Rails, SASS, CoffeScript, Redis, GitShell, Postgres, MySQl, Nginx. It uses Sidekiq for background processing. It also uses many C packages to interact with the git server. For testing it uses Rspec(Unit and functional), Capybara(integration), Jasmine(Javascript), Cucumber(Integration). It can be found at [GitlabHQ](http://github.com/gitlabhq/gitlabhq).
 
 ## Continuous Integration
-To develop the Continuous Integration Pipeline for gitlab, we are using open source CI tool called [Jenkins CI](http://jenkins-ci.org/). It provides support for multiple nodes(distributed systems). It has plugin architecture and it integrates with almost all SCM.
+To develop the Continuous Integration pipeline for gitlab, we are using open source CI tool called [Jenkins CI](http://jenkins-ci.org/). It provides support for multiple nodes(distributed systems). It has plugin architecture and it integrates with almost all SCM.
 
 ## BUILD 
 
