@@ -50,10 +50,10 @@ The master Jenkins should be able to SSH to slave, hence we added the SSH key in
 Using the Master Jenkins UI, We added a new Node. Provided the IP address and credentails. We added the gitlab label, so that we can run the build on the slave. Slave can be configured to run a build based on load, projects label as per required.
 
 ### 5. Build based on Trigger
-We added a Github Webhook. This is will send a post request to our Jenkins server as soon as something is pushed to "master branch". Hence as soon as teh post request is received, it will trigger to build the project.
+We added a Github Webhook. This is will send a post request to our Jenkins server as soon as something is pushed to "master branch". Hence as soon as the post request is received, it will trigger to build the project.
 
 ## Architecture
-![Architecture for CI](./imgs/architecture.png)
+![Architecture for CI](../imgs/architecture.png)
 
 ## Capabilities
 1. Triggered Builds
@@ -64,10 +64,10 @@ Refer `script/build.sh`. It handles the dependency management for the target pro
 
 3. Build Script Execution
 The Build is executed and it is passed. The build is Green
-![Green Build](./imgs/green_build.png)
+![Green Build](../imgs/green_build.png)
 
 4. Multiple Nodes
-![Distributed Nodes](imgs/distributed_nodes.png)
+![Distributed Nodes](../imgs/distributed_nodes.png)
 
 5. Status
 The status of the build can be seen [here](http://104.131.112.157:8080/job/gitlabhq/25/console). You can navigate to find the status of othe builds
