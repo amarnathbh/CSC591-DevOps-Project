@@ -57,7 +57,7 @@ We added a Github Webhook. This is will send a post request to our Jenkins serve
 
 ## Capabilities
 1. Triggered Builds
-![Trigger Build](./imgs/trigger_build.png)
+![Trigger Build](../imgs/trigger_build.png)
 
 2. Dependency Management
 Refer `script/build.sh`. It handles the dependency management for the target project.
