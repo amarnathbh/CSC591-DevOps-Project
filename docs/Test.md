@@ -3,7 +3,7 @@
 CSC510 - DevOps Milestone 2 
 
 ## Target Project
-Continuing from Milestone 1, we are using the same setup and target project. The details about it can be read in [Milestone1-Build](./../docs/build.md). 
+Continuing from Milestone 1, we are using the same setup and target project. The details about it can be read in [Milestone1-Build](./../docs/Build.md). 
 Few extra packages were required to be installed for setting up the testing setup. Appropriate modification were added in the `gitlab_setup` shell script for those.
 
 ## Analysis
