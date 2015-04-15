@@ -3,7 +3,7 @@
 CSC510 - DevOps Milestone 2 
 
 ## Target Project
-Continuing from Milestone 1, we are using the same setup and target project. The details about it can be read in [Milestone1-Build](./docs/build.md). 
+Continuing from Milestone 1, we are using the same setup and target project. The details about it can be read in [Milestone1-Build](./../docs/build.md). 
 Few extra packages were required to be installed for setting up the testing setup. Appropriate modification were added in the `gitlab_setup` shell script for those.
 
 ## Analysis
@@ -43,7 +43,7 @@ We used [Tarantula](https://github.com/relevance/tarantula). Tarantula is fuzzy 
 * Test Generation/Exporation Technique
     
     We are using the fuzzing testing method. The code is present in 
-    [tarantula_spec.rb](./scripts/tarantula_spec.rb). This increases the code coverage for `requests` suite of rspec.
+    [tarantula_spec.rb](./../scripts/tarantula_spec.rb). This increases the code coverage for `requests` suite of rspec.
 
 * Base Analysis
 
