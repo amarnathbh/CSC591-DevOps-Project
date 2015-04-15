@@ -32,18 +32,18 @@ We used [Tarantula](https://github.com/relevance/tarantula). Tarantula is fuzzy 
     Running unit tests is a step in the build pipeline.  Below are the green builds after running the tests
 
     Start
-    ![Start](imgs/green_test_1.png)
+    ![Start](./imgs/green_test_1.png)
 
     End
-    ![End](imgs/green_test_2.png)
+    ![End](./imgs/green_test_2.png)
 
     Coverage Report
-    ![coverage](imgs/coverage_report.png)
+    ![coverage](./imgs/coverage_report.png)
 
 * Test Generation/Exporation Technique
     
     We are using the fuzzing testing method. The code is present in 
-    [tarantula_spec.rb](scripts/tarantula_spec.rb). This increases the code coverage for `requests` suite of rspec.
+    [tarantula_spec.rb](./scripts/tarantula_spec.rb). This increases the code coverage for `requests` suite of rspec.
 
 * Base Analysis
 
@@ -55,12 +55,12 @@ We used [Tarantula](https://github.com/relevance/tarantula). Tarantula is fuzzy 
     
     The extended rules are defined in `rubocop.yml`. It is also present in the master branch of the repo.
     
-    [rubocop](scripts/rubocop.yml)    
+    [rubocop](./scripts/rubocop.yml)    
 
 * Gate
     
     We have set the threshold as 80% for code coverage. If the test coverage is less than 80% the build is marked as a failure. The next steps in the pipeline will not be executed if any of the failure is occured like failure in test, static analysis violation or reduction in code coverage.
-    ![Base Analysis](imgs/threshold.png)
+    ![Base Analysis](./imgs/threshold.png)
 
 The status of the build can be seen [here](http://104.131.112.157:8080/job/gitlabhq/66/console). You can navigate to find the status of other builds/tests
 
