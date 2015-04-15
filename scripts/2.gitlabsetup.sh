@@ -18,3 +18,16 @@ source $HOME/.rvm/scripts/rvm
 # Installing Ruby 
 rvm install ruby-2.1.5
 
+# Installing Node 
+sudo apt-get install nodejs
+
+# Installing redis-server
+sudo apt-get install redis-server
+
+# Installing phantom.js
+cd /usr/local/share/
+sudo wget http://phantomjs.googlecode.com/files/phantomjs-1.8.1-linux-x86_64.tar.bz2
+sudo tar jxvf phantomjs-1.8.1-linux-x86_64.tar.bz2
+sudo ln -s /usr/local/share/phantomjs-1.8.1-linux-x86_64/ /usr/local/share/phantomjs
+sudo ln -s /usr/local/share/phantomjs/bin/phantomjs /usr/local/bin/phantomjs%
+

@@ -1,0 +1,285 @@
+Style/AccessModifierIndentation:
+  Enabled: true
+
+Style/AccessorMethodName:
+  Enabled: false
+
+Style/Alias:
+  Enabled: true
+
+Style/AlignArray:
+  Enabled: true
+
+Style/AlignHash:
+
+  Enabled: true
+
+Style/AlignParameters:
+
+  Enabled: false
+
+Style/AndOr:
+  Enabled: false
+
+Style/ArrayJoin:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: true
+
+Style/AsciiIdentifiers:
+  Enabled: true
+
+Style/Attr:
+  Enabled: false
+
+Style/BeginBlock:
+  Enabled: true
+
+Style/BarePercentLiterals:
+  Enabled: false
+
+Style/BlockComments:
+  Enabled: false
+
+Style/BlockEndNewline:
+  Enabled: true
+
+Style/Blocks:
+  Enabled: true
+
+Style/BracesAroundHashParameters:
+  Enabled: false
+
+Style/CaseEquality:
+  Enabled: false
+
+Style/CaseIndentation:
+  Enabled: true
+
+Style/CharacterLiteral:
+  Enabled: true
+
+Style/ClassAndModuleCamelCase:
+  Enabled: true
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/ClassCheck:
+  Enabled: false
+
+Style/ClassMethods:
+  Enabled: false
+
+Style/ClassVars:
+  Enabled: true
+
+Style/ColonMethodCall:
+  Enabled: false
+
+Style/CommentAnnotation:
+  Enabled: false
+
+Style/CommentIndentation:
+  Enabled: true
+
+Style/ConstantName:
+  Enabled: true
+
+Style/DefWithParentheses:
+  Enabled: false
+
+Style/DeprecatedHashMethods:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DotPosition:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/EachWithObject:
+  Enabled: false
+
+Style/ElseAlignment:
+  Enabled: true
+
+Style/EmptyElse:
+  Enabled: false
+
+Style/EmptyLineBetweenDefs:
+  Enabled: false
+
+Style/EmptyLines:
+  Enabled: false
+
+Style/EmptyLinesAroundAccessModifier:
+  Enabled: false
+
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Style/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Style/EmptyLinesAroundMethodBody:
+  Enabled: false
+
+Style/EmptyLiteral:
+  Enabled: false
+
+Style/EndBlock:
+  Enabled: false
+
+Style/EndOfLine:
+  Enabled: false
+
+Style/EvenOdd:
+  Enabled: false
+
+Style/FileName:
+  Enabled: false
+
+Style/FlipFlop:
+  Enabled: false
+
+Style/For:
+  Enabled: false
+
+Style/FormatString:
+  Enabled: false
+
+Style/GlobalVars:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/HashSyntax:
+
+  Enabled: true
+
+Style/IfUnlessModifier:
+
+  Enabled: false
+
+Style/IfWithSemicolon:
+  Enabled: false
+
+Style/IndentationConsistency:
+  Enabled: true
+
+Style/IndentationWidth:
+  Enabled: true
+
+Style/IndentArray:
+
+  Enabled: false
+
+Style/IndentHash:
+  Enabled: false
+
+Style/InfiniteLoop:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Style/LambdaCall:
+  Enabled: false
+
+Style/LeadingCommentSpace:
+  Enabled: false
+
+Style/LineEndConcatenation:
+Use \ instead of + or << to concatenate two string literals at
+line end.
+  Enabled: false
+
+Style/MethodCallParentheses:
+  Enabled: false
+
+Style/MethodDefParentheses:
+Checks if the method definitions have or don't have
+parentheses.
+  Enabled: false
+
+Style/MethodName:
+  Enabled: false
+
+Style/ModuleFunction:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/MultilineBlockLayout:
+  Enabled: false
+
+Style/MultilineIfThen:
+  Enabled: false
+
+Style/MultilineOperationIndentation:
+Checks indentation of binary operations that span more than
+one line.
+  Enabled: false
+
+Style/MultilineTernaryOperator:
+Avoid multi-line ?: (the ternary operator);
+use if/unless instead.
+  Enabled: false
+
+Style/NegatedIf:
+Favor unless over if for negative conditions
+(or control flow or).
+  Enabled: false
+
+Style/NegatedWhile:
+  Enabled: false
+
+Style/NestedTernaryOperator:
+  Enabled: false
+
+Style/Next:
+  Enabled: false
+
+Style/NilComparison:
+  Enabled: false
+
+Style/NonNilCheck:
+  Enabled: false
+
+Style/Not:
+  Enabled: false
+
+Style/NumericLiterals:
+Add underscores to large numeric literals to improve their
+readability.
+  Enabled: false
+
+
+
+# Exclude some of GitLab files
+#
+#
+AllCops:
+RunRailsCops: true
+Exclude:
+- 'spec/**/*'
+- 'features/**/*'
+- 'vendor/**/*'
+- 'db/**/*'
+- 'tmp/**/*'
+- 'bin/**/*'
+- 'lib/backup/**/*'
+- 'lib/tasks/**/*'
+- 'lib/email_validator.rb'
+- 'lib/gitlab/upgrader.rb'
+- 'lib/gitlab/seeder.rb'
