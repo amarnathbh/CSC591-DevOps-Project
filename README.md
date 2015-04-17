@@ -93,6 +93,11 @@ For the purpose of analysis and monitoring we are using new_relic. New_relic is 
 ![Deploy](./imgs/new_relic_1.png)
 ![Deploy](./imgs/new_relic_2.png)
 
+References
+
+https://github.com/gitlabhq/cookbook-gitlab
+http://www.thoughtworks.com/insights/blog/how-deliver-rails-upgrade-using-canary-release
+
 
 
 
