@@ -13,7 +13,7 @@ The details of the previous milestones can be found in this same repo
 To setup the production infrastructure automatically, we used Vagrant and chef solo. The machine was setup on Digital Ocean. This setups up all the packages, databases, redis. It also clones the repo and seeds the required initla values for the database.
 * Digital Ocean: It is a cloud provider which was used to boot virtual servers.
 * Vagrant: Vagrant has plugin for Digital Ocean. we set up the machine using the APIKey and Vagrantfile.
-* Chef: Chef was used as the provisioning tool.
+* Chef: Chef was used as the provisioning tool. The chef cookbook used to orchestrate the server is present in this repo
 Below is the Vagarantfile setup
 ```
 # -*- mode: ruby -*-
@@ -93,20 +93,7 @@ For the purpose of analysis and monitoring we are using new_relic. New_relic is 
 ![Deploy](./imgs/new_relic_1.png)
 ![Deploy](./imgs/new_relic_2.png)
 
-References
+## References
 
-https://github.com/gitlabhq/cookbook-gitlab
-http://www.thoughtworks.com/insights/blog/how-deliver-rails-upgrade-using-canary-release
-
-
-
-
-
-
-
-
-
-
-
-
-
+- https://github.com/gitlabhq/cookbook-gitlab
+- http://www.thoughtworks.com/insights/blog/how-deliver-rails-upgrade-using-canary-release
