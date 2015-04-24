@@ -10,11 +10,16 @@ The details of the previous milestones can be found in this same repo
 - [Deploy] (add a link to the milestone 3 here)
 
 ## Special milestone
-For adding a special feature to the CI pipeline, we have introduced a calling feature to the administrator as soon as (within 15 seconds) the load balancer crashes using Twilio.
+For adding a special feature to the CI pipeline, we have introduced a monitoring application that heartbeats the load balancer to check if is alive. If the server is down or the number of requests exceeds a certain threshold, the system administrator receives a call. We have used the Twilio API to introduce this feature in the system.
 
 ## Twilio
 
+
+
 ## Implementation 
+We have made a Ruby application which pings the load balancer every 15 seconds to check if it working as expected. If not, the system administrator gets a call from the browser. We have also made sure that the system administrator gets the call only once and the does not keep receiving calls continuously until the system is up and working. We have also set a cron for every minute which invokes this ruby monitoring application.
+The entire call history can be seen on the twilio dashboard. 
+
 
 ## Presentation
 The presentatiion video can be found [here](https://www.youtube.com/watch?v=h0Nvc1B3C90)
