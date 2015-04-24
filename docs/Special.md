@@ -13,7 +13,7 @@ The details of the previous milestones can be found in this same repo
 For adding a special feature to the CI pipeline, we have introduced a monitoring application that heartbeats the load balancer to check if it is alive. If the server is down or the number of requests exceeds a certain threshold, the system administrator receives a call. We have used the Twilio REST API to introduce this feature in the system.
 
 ## Twilio
-Twilio basically uses Amazon Web Services to host telephony infrastructure and provide connectivity between HTTP and the public switched telephone network (PSTN) through its APIs. Twilio REST API allows Ruby development environment with Sinatra and the twilio-ruby helper library. We can also make a client API by using the TwiML language.
+Twilio basically uses Amazon Web Services to host telephony infrastructure and provide connectivity between HTTP and the public switched telephone network (PSTN) through its APIs. Twilio REST API provides a Ruby development environment with Sinatra and the twilio-ruby helper library. We can also make a client API by using the TwiML language.
 
 We are using the trial account at Twilio to make a call to the system administrator through the browser. The trial account only allows outgoing calls to verified numbers. With the account upgrade, we can have otugoing calls from teh browser to any number(s) specified in the list. Custom messages can be set and also SMS alerts can be introduced.
 
