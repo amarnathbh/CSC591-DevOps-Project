@@ -24,6 +24,6 @@ The entire call history can be seen on the twilio dashboard.
 
 
 ## Presentation
-A presentatiion video which gives a bief introduction of the entire project(all four milestones) can be found [here](https://www.youtube.com/watch?v=h0Nvc1B3C90)
+A presentatiion video which gives a brief introduction of the entire project(all four milestones) can be found [here](https://www.youtube.com/watch?v=h0Nvc1B3C90)
 
 
