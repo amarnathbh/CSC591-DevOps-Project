@@ -1,6 +1,6 @@
 # Continuous Integration - BUILD
 
-CSC510 DevOps
+CSC591 DevOps
 
 ## Target Project
 The target project which we are using for our CI pipeline is Gitlab. Gitlab is open source version of github. It is full-fledged Ruby on Rails application. It has extensive stack. It uses Ruby, Rails, SASS, CoffeScript, Redis, GitShell, Postgres, MySQl, Nginx. It uses Sidekiq for background processing. It also uses many C packages to interact with the git server. For testing it uses Rspec(Unit and functional), Capybara(integration), Jasmine(Javascript), Cucumber(Integration). It can be found at [GitlabHQ](http://github.com/gitlabhq/gitlabhq).
