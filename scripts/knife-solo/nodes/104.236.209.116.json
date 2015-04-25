@@ -1,0 +1,8 @@
+{
+  "run_list": [
+      "recipe[gitlab::default]"
+  ],
+  "automatic": {
+    "ipaddress": "104.236.209.116"
+  }
+}

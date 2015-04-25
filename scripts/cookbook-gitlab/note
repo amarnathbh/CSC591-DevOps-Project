@@ -1,3 +1,0 @@
-RAILS_ENV=test SIMPLECOV=true COVERAGE=on bundle exec rake spec:api
-
-
